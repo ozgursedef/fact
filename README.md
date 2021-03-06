@@ -9,5 +9,6 @@ Maven Project
 Compile
 mvn clean; mvn install -DskipTests
 
-Run and Debug
-Simple run the code with run button on the main function in Visual Studio Code
+Run and Debug:
+
+Simply run the code with run button on the main function in Visual Studio Code
