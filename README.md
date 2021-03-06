@@ -5,6 +5,7 @@ Toolset => Estimation + Optimization + Validation
 
 Java8
 Maven Project
+AWS Cli should be installed and configured
 
 Compile, Run and Debug:
 
