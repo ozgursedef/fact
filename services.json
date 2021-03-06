@@ -1,0 +1,179 @@
+[
+    {
+        "service": {
+            "name":"omega_get_countries_dev_green",
+            "payload":""
+            1
+        }
+    },
+    {
+        "service": {
+            "name":"omega_content_get_version_dev_green",
+            "payload":""
+            2
+        }
+    },
+    {
+        "service": {
+            "name":"omega_content_privacy_policy_dev_green",
+            "payload":"{\"deviceType\": \"WG\",\n \"regionCode\": \"TR\",\n \"appName\": \"Sharp Home\",\n \"languageCode\": \"tr\"}"
+        }
+        3
+    },
+    {
+        "service": {
+            "name":"omega_content_membership_contract_dev_green",
+            "payload":"{\"deviceType\": \"WG\",\n \"regionCode\": \"TR\",\n \"appName\": \"Sharp Home\",\n \"languageCode\": \"tr\"}"
+        }
+        4
+    },
+    {
+        "service": {
+            "name":"omega_content_get_languages_dev_green",
+            "payload":""
+        }
+        5
+    },
+    {
+        "service": {
+            "name":"omega_content_countries_dev_green",
+            "payload":""
+        }
+        6
+    },
+    {
+        "service": {
+            "name":"omega_content_get_timezone_dev_green",
+            "payload":""
+        }
+        7
+    },
+    {
+        "service": {
+            "name":"omega_list_home_appliances_dev_green",
+            "payload":"{\"resourcepath\":\"legacy\",\"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoicE5Va1p4M050N3h5bERoRTlnUk1DdyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzI4MDU4LCJpYXQiOjE2MDc3MjQ0NTgsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.Uob5lvoCBpcuipDaaAeMVjaw4eySklZrmZXMD_rPZRcklcLGf_WJPKNGVtv1DyBUgqdvq5iVyiElb2uLNLTCmKB0q1ECcb6gYtcp53NXtfVeFM97-dxeeXeVJra6uby32Mob6kM4v1Mwk53u5rY-brkdHZ9udibBUFYUhxFwfP6y7cjSnvIdh7LJibE1kDhV0mJKh8JkZ8IN_1pi6V6BWyNgUBD53YaIF_K5jaYCwSs7mM2qUsNgbdtWCjiItdIimM5uehEEkzhPz0UWLJfW54pVcW0Zv9b0NyeuywOclIxkKltinMm-KXqS48WNgx5R6TRRlkEEfgm330OE1_aRyA\"}"
+        }
+        8
+    },
+    {
+        "service": {
+            "name":"omega_get_all_status_of_device_dev_green",
+            "payload":"{\"uuid\":\"WG_AC_IOT_VIRTUAL\",\"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoicE5Va1p4M050N3h5bERoRTlnUk1DdyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzI4MDU4LCJpYXQiOjE2MDc3MjQ0NTgsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.Uob5lvoCBpcuipDaaAeMVjaw4eySklZrmZXMD_rPZRcklcLGf_WJPKNGVtv1DyBUgqdvq5iVyiElb2uLNLTCmKB0q1ECcb6gYtcp53NXtfVeFM97-dxeeXeVJra6uby32Mob6kM4v1Mwk53u5rY-brkdHZ9udibBUFYUhxFwfP6y7cjSnvIdh7LJibE1kDhV0mJKh8JkZ8IN_1pi6V6BWyNgUBD53YaIF_K5jaYCwSs7mM2qUsNgbdtWCjiItdIimM5uehEEkzhPz0UWLJfW54pVcW0Zv9b0NyeuywOclIxkKltinMm-KXqS48WNgx5R6TRRlkEEfgm330OE1_aRyA\"}"
+        }
+        9
+    },
+    {
+        "service": {
+            "name":"omega_get_home_appliance_dev_green",
+            "payload":"{\"uuid\":\"WG_OV_IOT_VIRTUAL\",\"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiYTBTSmsyQlktRHZNYVRRSHpnbzBFdyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzMwOTg3LCJpYXQiOjE2MDc3MjczODcsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.H8wdG08sj9ekEnE4e2NEXGev6qS68Zh8dZIWR23zfRn1gizkJmKPBgeudEiwocyVJT0DerLMosaMqe6DTxsHEuJpuNovR32uNZR--yzCHTGBXtka3ocKidFTXwwpck7rMGhVqiGtc7DH6fpkdHzvUDudwYj6hp_OnFpDpyLVFXr-4tEazk0L0maDyPHpgNaNPF4Oe4iIRk-rChyag_hBsWhFutDkdqjqyRGiIjoeI8g9E2fNl9lqo011hGprEcGmCXwmzxGvFrDBBGe5car4Ey67Uzwdogudk8CYbp1S9EoUsUkTzFCvLSUOZuDXggrwPTIVUNAfEVOI8_Ydze_Siw\"}"
+        }
+        10
+    },
+    {
+        "service": {
+            "name":"omega_device_discovery_service_home_appliance_dev_green",
+            "payload":"{\"uuid\":\"WG_OV_IOT_VIRTUAL\",\"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiYTBTSmsyQlktRHZNYVRRSHpnbzBFdyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzMwOTg3LCJpYXQiOjE2MDc3MjczODcsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.H8wdG08sj9ekEnE4e2NEXGev6qS68Zh8dZIWR23zfRn1gizkJmKPBgeudEiwocyVJT0DerLMosaMqe6DTxsHEuJpuNovR32uNZR--yzCHTGBXtka3ocKidFTXwwpck7rMGhVqiGtc7DH6fpkdHzvUDudwYj6hp_OnFpDpyLVFXr-4tEazk0L0maDyPHpgNaNPF4Oe4iIRk-rChyag_hBsWhFutDkdqjqyRGiIjoeI8g9E2fNl9lqo011hGprEcGmCXwmzxGvFrDBBGe5car4Ey67Uzwdogudk8CYbp1S9EoUsUkTzFCvLSUOZuDXggrwPTIVUNAfEVOI8_Ydze_Siw\"}"
+        }
+        11
+    },
+    {
+        "service": {
+            "name":"omega_native_device_token_dev_green",
+            "payload":"{\"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiYTBTSmsyQlktRHZNYVRRSHpnbzBFdyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzMwOTg3LCJpYXQiOjE2MDc3MjczODcsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.H8wdG08sj9ekEnE4e2NEXGev6qS68Zh8dZIWR23zfRn1gizkJmKPBgeudEiwocyVJT0DerLMosaMqe6DTxsHEuJpuNovR32uNZR--yzCHTGBXtka3ocKidFTXwwpck7rMGhVqiGtc7DH6fpkdHzvUDudwYj6hp_OnFpDpyLVFXr-4tEazk0L0maDyPHpgNaNPF4Oe4iIRk-rChyag_hBsWhFutDkdqjqyRGiIjoeI8g9E2fNl9lqo011hGprEcGmCXwmzxGvFrDBBGe5car4Ey67Uzwdogudk8CYbp1S9EoUsUkTzFCvLSUOZuDXggrwPTIVUNAfEVOI8_Ydze_Siw\"}"
+        }
+        12
+    },
+    {
+        "service": {
+            "name":"omega_list_customer_dev_green",
+            "payload":"{\"token\": \"eyJraWQiOiIwaE9uSUJKQ01SUWtCSEdORGs2YUowZGxSUCtwcEt2NFVYVnZ1SkZjYWFBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJldmVudF9pZCI6IjliNzQwZjM0LTI4OTItNGU4MC04MGQ2LWEzNjE5NjM3NzU0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImV4cCI6MTYwNzczNjM4OSwiaWF0IjoxNjA3NzMyNzg5LCJ2ZXJzaW9uIjoyLCJqdGkiOiIyY2Y0OWZhNS05NDQ3LTRmM2ItYjZiNi1jZjg1NDI2YmE1OTYiLCJjbGllbnRfaWQiOiI1MjhtZmtrOWVvdmY1NWh0ZW8zamoxMjZmbiIsInVzZXJuYW1lIjoiMWIwY2UwM2UtY2NmNy00OGMzLTgwOGUtMWUxM2M3M2MzZTI2In0.J2tzq36xW7dPiO-2UnzVttCPXXQxvI6_bDVeCcpUzsRk7HBnJgjox72V4hCfhxapB5S9m3OX9Nv1Sh3ofJ8IDaSfL8Hm08irUBZ7xcXFe2R8LhMwc_cGopjNqYk-FP22jkDtiFR8oiZOGLU2XYczjdNuB4ER4x8o61CgiV5EQqugQwkoACK0t3Zo_9IYZTyZKJV6AHlHFOyxybw5qDXPxf9jrXu-uJ9XTk7wSPeyxPV8cqmTum4dsVif7N8zAh9u9dVzzU_K23YCDMxCJ89RYvrrs4m68Ypu2dKHuxYLWgsuuRsz6GNHRVdqXveSfwzndWmf-DTQwA8CKXocebb5sw\"}"
+        }
+        13
+    },
+    {
+        "service": {
+            "name":"omega_check_user_info_dev_green",
+            "payload":"{\"token\": \"eyJraWQiOiIwaE9uSUJKQ01SUWtCSEdORGs2YUowZGxSUCtwcEt2NFVYVnZ1SkZjYWFBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJldmVudF9pZCI6IjliNzQwZjM0LTI4OTItNGU4MC04MGQ2LWEzNjE5NjM3NzU0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImV4cCI6MTYwNzczNjM4OSwiaWF0IjoxNjA3NzMyNzg5LCJ2ZXJzaW9uIjoyLCJqdGkiOiIyY2Y0OWZhNS05NDQ3LTRmM2ItYjZiNi1jZjg1NDI2YmE1OTYiLCJjbGllbnRfaWQiOiI1MjhtZmtrOWVvdmY1NWh0ZW8zamoxMjZmbiIsInVzZXJuYW1lIjoiMWIwY2UwM2UtY2NmNy00OGMzLTgwOGUtMWUxM2M3M2MzZTI2In0.J2tzq36xW7dPiO-2UnzVttCPXXQxvI6_bDVeCcpUzsRk7HBnJgjox72V4hCfhxapB5S9m3OX9Nv1Sh3ofJ8IDaSfL8Hm08irUBZ7xcXFe2R8LhMwc_cGopjNqYk-FP22jkDtiFR8oiZOGLU2XYczjdNuB4ER4x8o61CgiV5EQqugQwkoACK0t3Zo_9IYZTyZKJV6AHlHFOyxybw5qDXPxf9jrXu-uJ9XTk7wSPeyxPV8cqmTum4dsVif7N8zAh9u9dVzzU_K23YCDMxCJ89RYvrrs4m68Ypu2dKHuxYLWgsuuRsz6GNHRVdqXveSfwzndWmf-DTQwA8CKXocebb5sw\"}"
+        }
+        14
+    },
+    {
+        "service": {
+            "name":"omega_get_command_service_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        15
+    },
+    {
+        "service": {
+            "name":"omega_active_get_service_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        16
+    },
+    {
+        "service": {
+            "name":"omega_start_program_home_appliance_dev_green",
+            "payload":"{\"key\" : \"Cooking.Oven.Program.Pizza\", \"Content-Type\": \"application/json\",\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        17
+    },
+    {
+        "service": {
+            "name":"omega_active_option_get_service_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        18
+    },
+    {
+        "service": {
+            "name":"omega_put_command_service_home_appliance_dev_green",
+            "payload":"{\"commands\":[{\"key\":\"Cooking.Oven.Command.Start\"}], \"pathKey\" : \"Cooking.Oven.Command.Start\", \"Content-Type\": \"application/json\",\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        19
+    },
+    {
+        "service": {
+            "name":"omega_selected_program_put_service_home_appliance_dev_green",
+            "payload":"{\"key\" : \"Cooking.Oven.Program.Pizza\", \"Content-Type\": \"application/json\",\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        20
+    },
+    {
+        "service": {
+            "name":"omega_get_setting_service_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_AC_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        21
+    },
+    {
+        "service": {
+            "name":"omega_get_all_status_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_AC_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        22
+    },
+    {
+        "service": {
+            "name":"omega_program_available_get_service_home_appliance_dev_green",
+            "payload":"{\"uuid\": \"WG_OV_IOT_VIRTUAL\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoieFA3NWZCYUZpR2hLeHREb3JzR0RZUSIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6InRlc3QiLCJjdXN0b206bGFuZ3VhZ2UiOiJUdXJraXNoIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImN1c3RvbTpkb2N1bWVudFNpZ25lZCI6ImFjY2VwdGVkIiwiZXhwIjoxNjA3NzM5NjIxLCJpYXQiOjE2MDc3MzYwMjEsImVtYWlsIjoiaXJlbXNoYXJwZGV2QG1haWxpbmF0b3IuY29tIn0.AeX2C3ZozPxB0q-VjbiSUX551Lf9uIUwk0l0oaIbVZbfcKuFYxt94V1BtBEC9ReOprZ_Ol2JKVQjATNO1jgEYK8RXSYEaoWvlzPNDEQ5bj5Tv05HYeKJkZUwUCRuwLiE4fyyTm6_iC5TR_IYeIHZ3temDc5jIkN52O5pTsPYSm77bPpvG3Vj5AFrh4EbpPUajC_aMelUVn9IWA5O5zoXPI9LmOI6iqxFMmhSXHq_mLhop8Gns2lM0buA_XKzwVFSPNLUBX5UjcSZ8CWV0cdM7jsYAxySg-bQhzZX22jZNZK_tVJI799PWyjpQG80075ncD6_2I9F9v4Yg-Jod_7PoQ\"}"
+        }
+        23
+    },
+    {
+        "service": {
+            "name":"omega_update_profile_dev_green",
+            "payload":"{\"body\":{\"name\": \"Turkey\"},\"Content-Type\": \"application/json\", \"token\": \"eyJraWQiOiIwaE9uSUJKQ01SUWtCSEdORGs2YUowZGxSUCtwcEt2NFVYVnZ1SkZjYWFBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJldmVudF9pZCI6IjliNzQwZjM0LTI4OTItNGU4MC04MGQ2LWEzNjE5NjM3NzU0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MDc3MjQ0MzEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImV4cCI6MTYwNzc1MDg0MCwiaWF0IjoxNjA3NzQ3MjQwLCJ2ZXJzaW9uIjoyLCJqdGkiOiJlY2U1NzNkYi01NzNiLTQyYTMtODIzYi05Y2FkZGJmODAzZmYiLCJjbGllbnRfaWQiOiI1MjhtZmtrOWVvdmY1NWh0ZW8zamoxMjZmbiIsInVzZXJuYW1lIjoiMWIwY2UwM2UtY2NmNy00OGMzLTgwOGUtMWUxM2M3M2MzZTI2In0.NBfyzkb_s4TbH5DJSIPU8LH8GzTRUpec-XAqypdDV4boHEDICechq5fDoAnzdcG4vnYU0lzU4rpuLON0f5BwdV_o8oqx5_Y8qNW4GE6q-wYqzM31nwdP3JeVK4E3h0ULCCTld0SB4hhLiqYRsJZTeTKVHtYDYqmeOLMV_vwyADPLQORczicWEeq5Hf8t2ATXTY16k7zebpUSWRKzadnGlTWNJo1JQZ5EpFec2oe3ez5O3ahYkBYTCrgpl25NnPj4g-BNuVuJqN8myoDJ3agHheI3aAkymWFLRnJFZCazEM4j8C0igXGidNJ3Cd0oMGf-a_08tuwsszfC-nlKQtWnhA\"}"
+        }
+        24
+    },
+    {
+        "service": {
+            "name":"omega_customer_notification_info_dev_green",
+            "payload":"{\"func\": \"register\",\"body\": {\"deviceType\": \"ANDROID_MOBILE\",\"platform\": \"GCM\",\"regId\": \"string\",\"devId\": \"string\"},\"Content-Type\": \"application/json\", \"token\": \"eyJraWQiOiI2WUV1TEY2ZU4rU2VLeGlLSENJNmRxRXNWUlwvc0NDd21iblpRSHJmZmE1ST0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiZzVxVzI1b21PRHBuOS1xdmZXQW8ydyIsImN1c3RvbTpjb3VudHJ5IjoiR2VybWFueSIsInN1YiI6IjFiMGNlMDNlLWNjZjctNDhjMy04MDhlLTFlMTNjNzNjM2UyNiIsImN1c3RvbTp0aW1lem9uZSI6IkRlZmF1bHQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX20yQ2U2NW5HMCIsImNvZ25pdG86dXNlcm5hbWUiOiIxYjBjZTAzZS1jY2Y3LTQ4YzMtODA4ZS0xZTEzYzczYzNlMjYiLCJjdXN0b206YnJhbmQiOiJTaGFycCIsImN1c3RvbTpjb250cmFjdFZlcnNpb24iOiIxIiwiY3VzdG9tOmFwcG5hbWUiOiJTaGFycCBIb21lIiwiY3VzdG9tOnN1cm5hbWUiOiJ0ZXN0IiwiYXVkIjoiNTI4bWZrazllb3ZmNTVodGVvM2pqMTI2Zm4iLCJjdXN0b206cHJpdmFjeVZlcnNpb24iOiIyIiwiZXZlbnRfaWQiOiI5Yjc0MGYzNC0yODkyLTRlODAtODBkNi1hMzYxOTYzNzc1NDUiLCJjdXN0b206bmFtZSI6IlR1cmtleSIsImN1c3RvbTpsYW5ndWFnZSI6IlR1cmtpc2giLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYwNzcyNDQzMSwiY3VzdG9tOmRvY3VtZW50U2lnbmVkIjoiYWNjZXB0ZWQiLCJleHAiOjE2MDc3NTI4NjgsImlhdCI6MTYwNzc0OTI2OCwiZW1haWwiOiJpcmVtc2hhcnBkZXZAbWFpbGluYXRvci5jb20ifQ.WrHkUi8UV1UIH0limfPN4VBVetLjX6oHhwkUJLGiTZnj-cRgbtQjiA8glkteQY8vqnTyufdN_FjnkcfSqonyRqU2hmEzPsJus6sGF7s4GI7dlMNn8l6BeEWXX-rR-MS09bsaUwQTuEfHlTAGOgyQJrkZ_uPN-vkx4108WqlWETB5fPTWTn-Nvv1YSIHGrlpjeO3x2nzYS5KGBlJllzhF6UfrXsJ7KriEw90xpCnGfK0cbI0sjAozgFxNIStao-K0Vt8Cfkk47XsjDg2LPRCXgGCUCY_C8KNIQGIwzpykEMhsqV4g3HF3b_CsVEzozbwnSpBEBGIesJ4Bn1yYZVeheA\"}"
+        }
+        25
+    }
+]
+
+
