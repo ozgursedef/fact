@@ -1,6 +1,5 @@
-# fact
-FACT (FaaS Cost Minimization Tool)
-Cost Minimization for Deploying Serverless Functions
+# FACT (FaaS Cost Minimization Tool)
+## Cost Minimization for Deploying Serverless Functions
 
 Toolset => Estimation + Optimization + Validation
 
