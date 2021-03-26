@@ -1,7 +1,6 @@
 # FACT (FaaS Cost Minimization Tool)
-## Cost Minimization for Deploying Serverless Functions
+## performance analyzer
 
-Toolset => Estimation + Optimization + Validation
 
 Java8
 Maven Project
@@ -9,8 +8,6 @@ Maven Project
 AWS Cli should be installed and configured
 
 Compile, Run and Debug:
-
-Open whole project with VS Code
 
 Compile => mvn clean; mvn install -DskipTests
 
