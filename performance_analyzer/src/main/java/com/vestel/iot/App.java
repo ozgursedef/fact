@@ -2,6 +2,8 @@ package com.vestel.iot;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.logging.Logger;
 
 import org.joda.time.DateTime;
 import org.json.simple.parser.ParseException;
@@ -12,38 +14,43 @@ import org.json.simple.parser.ParseException;
  */
 public class App {
 
-    static final int memoryCount = 12;
-    static final int timeCount = 3;
+    static int memoryCount = 0;
+    static final int internalLoop = 10;
     static final int validationCount = 100;
-    static double[] x = { 256, 512, 768, 1024, 1280, 1472, 1728, 2048, 2240, 2496, 2752, 3008 };
-    static double[] y = new double[memoryCount];
-    static double[] measured_y = new double[timeCount];
-    static double[] predict = new double[memoryCount];
-    static double[] logx = new double[memoryCount];
-    static double[] logy = new double[memoryCount];
-    static double[] validated_y = new double[validationCount];
+    static final int MINMEMORY = 128;
+    static final int MAXMEMORY = 1024;
+    static final int STEP = 64;
+    static LinkedList<Double> x = new LinkedList<>();
+    static LinkedList<Double> y = new LinkedList<>();
+    static LinkedList<Double> predict = new LinkedList<>();
+    static LinkedList<Double> logx = new LinkedList<>();
+    static LinkedList<Double> logy = new LinkedList<>();
+    static double[] validatedY = new double[validationCount];
+    static double[] measuredY;
 
     public static void main(String[] args) throws IOException, InterruptedException, ParseException {
 
         long start = DateTime.now().getMillis();
         String response;
-
+        memoryCount = (MAXMEMORY - STEP) / STEP;
+        measuredY = new double[memoryCount];
         ConfigurationManager configManager = new ConfigurationManager();
         for (Service service : configManager.read()) {
 
             AwsCli aws = new AwsCli(service);
-            for (int i = 0; i < memoryCount; i++) {
-                aws.setMemory(x[i]);
-                System.out.printf("\nMEMORY: " + (int) x[i] + " MB\n");
+            for (double i = MINMEMORY; i <= MAXMEMORY; i += STEP) {
+                x.add(i);
+                aws.setMemory(i);
+                System.out.println("\nMEMORY: " + i + " MB\n");
                 aws.invoke();// coldstart
-                for (int k = 0; k < timeCount; k++) {
+                for (int k = 0; k < internalLoop; k++) {
                     response = aws.invoke();
-                    measured_y[k] = getExecutionTime(response);
-                    System.out.println(k + ": " + measured_y[k]);
+                    measuredY[k] = getExecutionTime(response);
+                    System.out.println(k + ": " + measuredY[k]);
                     Thread.sleep(1000);
                 }
-                y[i] = mean(measured_y);
-                System.out.printf("MEAN: %.2f ms\n", y[i]);
+                y.add(mean(measuredY));
+                System.out.printf("MEAN: %.2f ms\n", mean(measuredY));
             }
             transform();
             PowerRegression regression = new PowerRegression(logx, logy);
@@ -67,19 +74,18 @@ public class App {
         String response = "";
         double sum = 0.0;
         int index = getMemoryIndex();
-        System.out.println("\nSelected Memory: " + (int) x[index] + " MB");
-        int memory = (int) x[index];
-        aws.setMemory(memory);
+        System.out.println("\nSelected Memory: " + x.get(index) + " MB");
+        aws.setMemory(x.get(index));
         for (int i = 0; i < validationCount; i++) {
             response = aws.invoke();
-            validated_y[i] = getExecutionTime(response);
-            sum += validated_y[i];
+            validatedY[i] = getExecutionTime(response);
+            sum += validatedY[i];
             System.out.print(".");
             Thread.sleep(1000);
         }
-        writePlotData(validated_y);
+        writePlotData(validatedY);
         System.out.println("\n        Predicted        Validated\n");
-        System.out.printf("          %.2f          %.2f\n", predict[index], sum / validationCount);
+        System.out.printf("          %.2f          %.2f\n", predict.get(index), sum / validationCount);
     }
 
     private static void writePlotData(double[] validated_y) {
@@ -109,7 +115,7 @@ public class App {
 
         System.out.println("        Measured        Predicted\n");
         for (int i = 0; i < memoryCount; i++) {
-            System.out.printf("          %.2f          %.2f\n", y[i], predict[i]);
+            System.out.printf("          %.2f          %.2f\n", y.get(i), predict.get(i));
         }
     }
 
@@ -117,9 +123,9 @@ public class App {
 
         for (int i = 0; i < memoryCount; i++) {
             if (b * -1 > 0) {
-                predict[i] = a * 1 / Math.pow(x[i], -b);
+                predict.add(a * 1 / Math.pow(x.get(i), -b));
             } else {
-                predict[i] = a * Math.pow(x[i], b);
+                predict.add(a * Math.pow(x.get(i), b));
             }
         }
     }
@@ -135,14 +141,14 @@ public class App {
         for (double y : measured_y) {
             sum += y;
         }
-        return sum / timeCount;
+        return sum / internalLoop;
     }
 
     private static void transform() {
 
         for (int i = 0; i < memoryCount; i++) {
-            logx[i] = Math.log(x[i]);
-            logy[i] = Math.log(y[i]);
+            logx.add(Math.log(x.get(i)));
+            logy.add(Math.log(y.get(i)));
         }
     }
 }

@@ -15,15 +15,14 @@ public class ConfigurationManager {
     List<Service> list = new ArrayList<>();
 
     public List<Service> read() throws org.json.simple.parser.ParseException {
-            
+
         JSONParser jsonParser = new JSONParser();
-         
-        try (FileReader reader = new FileReader("lambdaConfiguration.json"))
-        {
+
+        try (FileReader reader = new FileReader("lambdaConfiguration.json")) {
             Object obj = jsonParser.parse(reader);
             JSONArray serviceList = (JSONArray) obj;
             for (Object object : serviceList) {
-              parse((JSONObject) object);
+                parse((JSONObject) object);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -32,17 +31,17 @@ public class ConfigurationManager {
         }
 
         return list;
-	}
+    }
 
     private Object parse(JSONObject services) {
 
         Service service = new Service();
         JSONObject jsonObj = (JSONObject) services.get("service");
-         
-        String name = (String) jsonObj.get("name");    
+
+        String name = (String) jsonObj.get("name");
         service.name = name;
-         
-        String payload = (String) jsonObj.get("payload");  
+
+        String payload = (String) jsonObj.get("payload");
         service.payload = payload;
         list.add(service);
         return null;
