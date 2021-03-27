@@ -3,7 +3,6 @@ package com.vestel.iot;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
-import java.util.logging.Logger;
 
 import org.joda.time.DateTime;
 import org.json.simple.parser.ParseException;
@@ -26,14 +25,13 @@ public class App {
     static LinkedList<Double> logx = new LinkedList<>();
     static LinkedList<Double> logy = new LinkedList<>();
     static double[] validatedY = new double[validationCount];
-    static double[] measuredY;
+    static double[] measuredY = new double[internalLoop];
 
     public static void main(String[] args) throws IOException, InterruptedException, ParseException {
 
         long start = DateTime.now().getMillis();
         String response;
         memoryCount = (MAXMEMORY - STEP) / STEP;
-        measuredY = new double[memoryCount];
         ConfigurationManager configManager = new ConfigurationManager();
         for (Service service : configManager.read()) {
 
