@@ -1,5 +1,6 @@
 from gekko import GEKKO
 import numpy as np
+import sys
 
 #Initialize Model
 m = GEKKO(remote=True)
@@ -11,8 +12,8 @@ max = m.Const(value=3008)
 min = m.Const(value=128)
 step = m.Const(value=64)
 limit = m.Const(value=400)
-a = m.Const(value=1265)
-b = m.Const(value=-0.19)
+a = m.Const(value=sys.argv[2])
+b = m.Const(value=sys.argv[2])
 
 #initialize variables
 x = m.CV(integer=True)
@@ -27,15 +28,15 @@ x.upper = max
 
 #equations  
 m.Equation(x - w * step == 0)
-m.Equation(a*x**b<=limit)
+m.Equation(a*x+b<=limit)
 
 #objective
 #min by default
-m.Obj(x*a*x**b)
+m.Obj(a*x**2+b*x)
 
 #set global options
 m.options.IMODE = 3 #steady state optimization
-m.options.SOLVER = 1
+m.options.SOLVER = 1 #set integer non-linear programming
 
 #solve simulation
 m.solve()

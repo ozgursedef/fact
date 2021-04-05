@@ -14,10 +14,10 @@ import org.json.simple.parser.ParseException;
 public class App {
 
     static int memoryCount = 0;
-    static final int internalLoop = 10;
+    static final int internalLoop = 3;
     static final int validationCount = 100;
     static final int MINMEMORY = 128;
-    static final int MAXMEMORY = 1024;
+    static final int MAXMEMORY = 512;
     static final int STEP = 64;
     static LinkedList<Double> x = new LinkedList<>();
     static LinkedList<Double> y = new LinkedList<>();
@@ -33,6 +33,7 @@ public class App {
         long start = DateTime.now().getMillis();
         String response;
         LinearRegression lr= null;
+        int a,b =0;
         System.out.println(isLinear);
 
         memoryCount = (MAXMEMORY - STEP) / STEP;
@@ -65,20 +66,26 @@ public class App {
                 System.out.println("\nPower Regression: ");
                 System.out.println(pr.toString());
                 predict(pr.intercept(), pr.slope());
+                a = (int)pr.slope();
+                b = (int)pr.intercept();
+
             }else{
                 System.out.println("\nLinear Regression: ");
                 System.out.println(lr.toString());
                 predict(lr.intercept(), lr.slope());
+                a = (int)lr.slope();
+                b = (int)lr.intercept();
             }
-            
+ 
             System.out.println("\n-------------RESULTS----------------");
             printResults();
 
+            Optimization opt = new Optimization(a, b, isLinear);
+
             System.out.println("\n-------------VALIDATION----------------");
-            validate(aws);
+            //validate(aws);
 
             System.out.println("\nSession Time: " + ((DateTime.now().getMillis() - start) / 60000) + " dk");
-
         }
     }
 
