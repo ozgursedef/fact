@@ -26,11 +26,15 @@ public class App {
     static LinkedList<Double> logy = new LinkedList<>();
     static double[] validatedY = new double[validationCount];
     static double[] measuredY = new double[internalLoop];
+    static boolean isLinear;
 
     public static void main(String[] args) throws IOException, InterruptedException, ParseException {
 
         long start = DateTime.now().getMillis();
         String response;
+        LinearRegression lr= null;
+        System.out.println(isLinear);
+
         memoryCount = (MAXMEMORY - STEP) / STEP;
         ConfigurationManager configManager = new ConfigurationManager();
         for (Service service : configManager.read()) {
@@ -51,11 +55,22 @@ public class App {
                 System.out.printf("MEAN: %.2f ms\n", mean(measuredY));
             }
             transform();
-            PowerRegression regression = new PowerRegression(logx, logy);
-            System.out.println("\nPower Regression: ");
-            System.out.println(regression.toString());
-            predict(regression.intercept(), regression.slope());
+            PowerRegression pr = new PowerRegression(logx, logy);
+            if(pr.R2() < 0.75){
+                isLinear = true;
+                lr = new LinearRegression(x, y);
+            }
 
+            if(!isLinear){
+                System.out.println("\nPower Regression: ");
+                System.out.println(pr.toString());
+                predict(pr.intercept(), pr.slope());
+            }else{
+                System.out.println("\nLinear Regression: ");
+                System.out.println(lr.toString());
+                predict(lr.intercept(), lr.slope());
+            }
+            
             System.out.println("\n-------------RESULTS----------------");
             printResults();
 

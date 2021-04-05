@@ -43,4 +43,3 @@ m.solve()
 print('')
 print('Result')
 print('x: ' + str(x.value))
-
