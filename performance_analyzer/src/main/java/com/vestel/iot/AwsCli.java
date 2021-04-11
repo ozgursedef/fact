@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Scanner;
 
@@ -50,8 +51,8 @@ public class AwsCli {
         } catch (ServiceException e) {
             System.out.println(e);
         }
-        //String ans = new String(invokeResult.getPayload().array(), StandardCharsets.UTF_8);
-        //System.out.println(ans);
+        // String ans = new String(invokeResult.getPayload().array(), StandardCharsets.UTF_8);
+        // System.out.println(ans);
         try (Scanner s = new Scanner(
                 new ByteArrayInputStream(Base64.getDecoder().decode(invokeResult.getLogResult())))) {
             while (s.hasNextLine()) {

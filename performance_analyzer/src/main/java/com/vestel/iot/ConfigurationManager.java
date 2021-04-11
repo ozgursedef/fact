@@ -17,7 +17,7 @@ public class ConfigurationManager {
     public List<Service> read() throws org.json.simple.parser.ParseException {
 
         JSONParser jsonParser = new JSONParser();
-
+        System.out.println("Working Directory = " + System.getProperty("user.dir"));
         try (FileReader reader = new FileReader("lambdaConfiguration.json")) {
             Object obj = jsonParser.parse(reader);
             JSONArray serviceList = (JSONArray) obj;
