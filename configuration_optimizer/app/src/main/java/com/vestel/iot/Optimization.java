@@ -6,18 +6,18 @@ import java.io.InputStreamReader;
 
 public class Optimization {
     
-    public Optimization(int a, int b, boolean isLinear) throws IOException{
+    public Optimization(double a, double b, int m, boolean isLinear) throws IOException{
         if(isLinear){
-            invoke("linear.py",a,b);
+            invoke("lr.py",a,b,m);
         }else{
-            invoke("non-linear",a,b);
+            invoke("pr.py",a,b,m);
         }
     }
 
-    private void invoke(String script, int a, int b) throws IOException {
-        String command = "python3 scripts/" + script + " -a " + a + " -b " + b;
+    private void invoke(String script, double a, double b, int m) throws IOException {
+        String command = "python3 configuration_optimizer/app/scripts/" + script + " -a " + a + " -b " + b + " -min " + m;
         Process proc = Runtime.getRuntime().exec(command);
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getErrorStream()))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
