@@ -10,10 +10,12 @@ m = GEKKO(remote=True)
 #define parameter
 max = m.Const(value=3008)
 step = m.Const(value=64)
-limit = m.Const(value=400)
+
 a = m.Const(value=sys.argv[2])
 b = m.Const(value=sys.argv[4])
 min = m.Const(value=sys.argv[6])
+index = m.Const(value=sys.argv[8])
+limit = m.Const(value=sys.argv[10])
 
 #initialize variables
 x = m.CV(integer=True)
@@ -44,6 +46,7 @@ m.solve()
 print('')
 print('Result')
 print('x: ' + str(x.value))
+
 f = open("o_results.txt","a")
-f.write(str(x.value) + '\n')
+f.write(index.value + " - " + str(x.value) + '\n')
 f.close()

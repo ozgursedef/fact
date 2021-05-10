@@ -12,7 +12,7 @@ public class App
     {
         ConfigurationManager configManager = new ConfigurationManager();
         for (Service service : configManager.read()) {
-            Optimization opt = new Optimization(service.a, service.b, service.min, false);
+            Optimization opt = new Optimization(service, false);
         }
         
     }

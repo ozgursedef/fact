@@ -33,6 +33,8 @@ public class ConfigurationManager {
         service.a = Double.parseDouble(s.split(",")[0]);
         service.b = Double.parseDouble(s.split(",")[1]);
         service.min = Integer.parseInt(s.split(",")[2]);
+        service.index = Integer.parseInt(s.split(",")[3]);
+        service.limit = Integer.parseInt(s.split(",")[4]);
         return service;
     }
 }
