@@ -3,8 +3,8 @@ package com.vestel.iot;
 import java.io.IOException;
 
 /**
- * Hello world!
- *
+ * FACT Tool
+ * Configuration Optimizer
  */
 public class App 
 {
