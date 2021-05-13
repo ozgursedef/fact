@@ -20,10 +20,10 @@ reads optimum memory of the function and executes the function regarding the opt
 
 ### 1) Performance Analyzer
 In the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class there are following variables are needed to change according to your needs.
-`static final int internalLoop = 10;`
-`static final int MINMEMORY = 320;`
-`static final int MAXMEMORY = 3008;`
-`static final int STEP = 64;`
+`static final int internalLoop = 10;`  
+`static final int MINMEMORY = 320;`  
+`static final int MAXMEMORY = 3008;`  
+`static final int STEP = 64;`  
 
 To compile;
 
