@@ -13,12 +13,12 @@ To compile the projects use command below in the root project folder which pom.x
 ### 1) Performance Analyzer
 To compile;
 
-`cd performance_analyzer\n`  
+`cd performance_analyzer`  
 `mvn clean; mvn install -DskipTests`
 
 This step is reading function parameters through lambdaConfiguration.json file from the fact/(root). Simply write down your lambda services name and payload if is available;
 
-`"service": {  
-  "name":"example_service_name",  
-  "payload":"{\"example\":\"payload\"}"
+`"service": {\
+  "name":"example_service_name",\  
+  "payload":"{\"example\":\"payload\"}"\
 }`
