@@ -12,11 +12,11 @@ To compile the projects use command below in the root project folder which pom.x
 
 > Our overall cost minimization approach involves 3 stages: 
 1. Performance Analyzer
-It reads lambda function configrations through a file and executes the function under various memory settings. It calculates power/linear regression results for the the next step
+reads lambda function configrations through a file and executes the function under various memory settings. It calculates power/linear regression results for the the next step
 3. Configuration Optimizer
-It reads power/linear regression results and calculates the optimum memory for the function.
+reads power/linear regression results and calculates the optimum memory for the function.
 5. Function Profiler 
-It reads optimum memory of the function and executes the function regarding the optimum memory for 100 times. This stage validates GEKKO results if predicted memory latecy is under LIMIT variable.
+reads optimum memory of the function and executes the function regarding the optimum memory for 100 times. This stage validates GEKKO results if predicted memory latecy is under LIMIT variable.
 
 ### 1) Performance Analyzer
 To compile;
