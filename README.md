@@ -23,12 +23,13 @@ In the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class the
 `static final int MAXMEMORY = 3008;`  
 `static final int STEP = 64;`  
 
-To compile;
+Use the commands below for compilation:
 
 `cd performance_analyzer`  
 `mvn clean; mvn install -DskipTests`
 
-This step is reading function parameters through lambdaConfiguration.json file from the fact/(root). Simply write down your lambda services name and payload if is available;
+This step is for retrieving function parameters from the lambdaConfiguration.json file that is located at the folder fact/(root). These parameters include the name of the lambda service and payload, if any available, e.g.,
+
 
 `"service": {
   "name":"example_service_name",  
