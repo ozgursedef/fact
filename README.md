@@ -19,7 +19,7 @@ reads power/linear regression results and calculates the optimum memory for the 
 reads optimum memory of the function and executes the function regarding the optimum memory for 100 times. This stage validates GEKKO results if predicted memory latecy is under LIMIT variable.
 
 ### 1) Performance Analyzer
-In the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class there are following variables are needed to change according to your needs.
+In the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class there are following variables are needed to change according to your needs.  
 `static final int internalLoop = 10;`  
 `static final int MINMEMORY = 320;`  
 `static final int MAXMEMORY = 3008;`  
