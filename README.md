@@ -8,7 +8,13 @@ To compile the projects use command below in the root project folder which pom.x
 
 `mvn clean; mvn install -DskipTests`
 
-
+> Our overall cost minimization approach involves 3 stages: 
+1. Performance Analyzer
+It reads lambda function configrations through a file and executes the function under various memory settings. It calculates power/linear regression results for the the next step
+3. Configuration Optimizer
+It reads power/linear regression results and calculates the optimum memory for the function.
+5. Function Profiler 
+It reads optimum memory of the function and executes the function regarding the optimum memory for 100 times. This stage validates GEKKO results if predicted memory latecy is under LIMIT variable.
 
 ### 1) Performance Analyzer
 To compile;
@@ -18,7 +24,7 @@ To compile;
 
 This step is reading function parameters through lambdaConfiguration.json file from the fact/(root). Simply write down your lambda services name and payload if is available;
 
-`"service": {\
-  "name":"example_service_name",\  
-  "payload":"{\"example\":\"payload\"}"\
+`"service": {
+  "name":"example_service_name",  
+  "payload":"{\"example\":\"payload\"}"
 }`
