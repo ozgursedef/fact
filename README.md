@@ -19,6 +19,12 @@ reads power/linear regression results and calculates the optimum memory for the 
 reads optimum memory of the function and executes the function regarding the optimum memory for 100 times. This stage validates GEKKO results if predicted memory latecy is under LIMIT variable.
 
 ### 1) Performance Analyzer
+In the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class there are following variables are needed to change according to your needs.
+`static final int internalLoop = 10;`
+`static final int MINMEMORY = 320;`
+`static final int MAXMEMORY = 3008;`
+`static final int STEP = 64;`
+
 To compile;
 
 `cd performance_analyzer`  
@@ -32,3 +38,5 @@ This step is reading function parameters through lambdaConfiguration.json file f
 }`
 
 This stage prints the results performance_model.txt for the predicted values. For the regression analysis results, it print out to the r_results.txt file.
+
+
