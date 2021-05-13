@@ -37,8 +37,8 @@ This step is for retrieving function parameters from the lambdaConfiguration.jso
 
 This stage prints the results exported to the performance_model.txt file for the predicted values. It prints out the  regression analysis results to the r_results.txt file.
 
-> To run and debug;
-Use VsCode Studio run adn debug feature in the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class
+> To run and debug:  
+Use VsCode Studio run and debug feature in the fact/performance_analyzer/src/main/java/com/vestel/iot/App.java class
 
 ### 2) Configuration Optimizer
 
@@ -51,10 +51,10 @@ Use the commands below for compilation:
 
 This step is reading function regression results through r_results.txt file from the fact/(root). It prints optimization results to o_results.txt file.
 
-> To run and debug;  
-Use VsCode Studio run adn debug feature in the fact/configuration_optimizer/app/src/main/java/com/vestel/iot/App.java class
+> To run and debug:   
+Use VsCode Studio run and debug feature in the fact/configuration_optimizer/app/src/main/java/com/vestel/iot/App.java class
 
-> To run standalone;  
+> To run standalone:  
 `python3 configuration_optimizer/app/scripts/pr.py -a a -b b -min m -index i -limit l`
 
 ### 3) Function Profiler
@@ -66,7 +66,7 @@ Use the commands below for compilation:
 
 This step is reading function optimization results through o_results.txt file from the fact/(root). It prints optimization results to plot_data.txt file.
 
-> To run and debug;  
+> To run and debug:  
 Use VsCode Studio run adn debug feature in the fact/function_profiler/app/src/main/java/app/App.java
 
 
