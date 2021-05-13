@@ -2,11 +2,9 @@
 
 **FACT** tool aims at minimizing the cost of deployed serverless functions from the application provider perspective. Detailed information regarding the project can be obtained at the [Wiki page](https://github.com/ozgursedef/fact/wiki)
 
-FACT Tool consist of 3 seperate Java8 Maven projects.  
-In configuration_optimizer, it uses GEKKO python3 framework.  
-In order to execute lambda functions. Tool needs configured aws cli tool.  
+FACT Tool consists of 3 separate Java 8 Maven projects. One of these projects, configuration_optimizer, uses the [GEKKO python3 framework](https://gekko.readthedocs.io/en/latest/). [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) is used for executing lambda functions.
 
-To compile the projects use command below in the root project folder which pom.xml is exist.
+To compile the projects, use the command below at the root project folder, where the pom.xml file takes place:
 
 `mvn clean; mvn install -DskipTests`
 
