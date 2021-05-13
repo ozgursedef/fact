@@ -7,3 +7,16 @@ FACT Tool consist of 3 seperate Java8 Maven projects. In configuration_optimizer
 To compile the projects use command below in the root project folder which pom.xml is exist.
 
 `mvn clean; mvn install -DskipTests`
+
+###Performance Analyzer
+To compile;
+
+`cd performance_analyzer`
+`mvn clean; mvn install -DskipTests`
+
+This step is reading function parameters through lambdaConfiguration.json file from the fact/(root). Simply write down your lambda services name and payload if is available;
+
+`"service": {
+  "name":"example_service_name",
+  "payload":"{\"example\":\"payload\"}"
+}`
