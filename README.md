@@ -10,7 +10,7 @@ To compile the projects use command below in the root project folder which pom.x
 
 `mvn clean; mvn install -DskipTests`
 
-> Our overall cost minimization approach involves 3 stages: 
+> Our overall approach involves 3 stages: 
 1. Performance Analyzer
 reads lambda function configrations through a file and executes the function under various memory settings. It calculates power/linear regression results for the the next step
 3. Configuration Optimizer
@@ -30,3 +30,5 @@ This step is reading function parameters through lambdaConfiguration.json file f
   "name":"example_service_name",  
   "payload":"{\"example\":\"payload\"}"
 }`
+
+This stage prints the results performance_model.txt for the predicted values. For the regression analysis results, it print out to the r_results.txt file.
