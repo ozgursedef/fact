@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Scanner;
 
@@ -17,7 +16,7 @@ import com.amazonaws.services.lambda.model.InvokeRequest;
 import com.amazonaws.services.lambda.model.InvokeResult;
 import com.amazonaws.services.lambda.model.LogType;
 
-public class AwsCli {
+public class AwsCli implements CloudProvider{
 
     Service service = new Service();
 
@@ -25,7 +24,8 @@ public class AwsCli {
         this.service = service;
     }
 
-    void setMemory(double memorySize) throws IOException {
+    @Override
+    public void setMemory(double memorySize) throws IOException {
         String command = "aws lambda update-function-configuration --function-name " + service.name + " --memory-size "
                 + (int) memorySize;
         Process proc = Runtime.getRuntime().exec(command);
@@ -36,8 +36,9 @@ public class AwsCli {
             }
         }
     }
-
-    String invoke() throws IOException, InterruptedException {
+    
+    @Override
+    public String invoke() throws IOException, InterruptedException {
         InvokeRequest invokeRequest = new InvokeRequest().withFunctionName(service.name)
                     .withPayload(service.payload)
                     .withLogType(LogType.Tail);

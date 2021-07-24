@@ -38,14 +38,14 @@ public class App {
         ConfigurationManager configManager = new ConfigurationManager();
         for (Service service : configManager.read()) {
 
-            AwsCli aws = new AwsCli(service);
+            CloudProvider cp = new AwsCli(service);
             for (double i = MINMEMORY; i <= MAXMEMORY; i += STEP) {
                 x.add(i);
-                aws.setMemory(i);
+                cp.setMemory(i);
                 System.out.println("\nMEMORY: " + i + " MB\n");
-                aws.invoke();// coldstart
+                cp.invoke();// coldstart
                 for (int k = 0; k < internalLoop; k++) {
-                    response = aws.invoke();
+                    response = cp.invoke();
                     measuredY[k] = getExecutionTime(response);
                     System.out.println(k + ": " + measuredY[k]);
                     Thread.sleep(1000);
